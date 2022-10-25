@@ -1,0 +1,46 @@
+.section-clients {
+  margin: auto;
+  width: 1170px;
+  height: 372px;
+}
+
+/* H2 */
+
+.clients-title {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+  height: 42px;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.clients-list {
+  justify-content: space-around;
+  display: flex;
+
+  padding-bottom: 94px;
+}
+
+.clients-list li {
+  display: flex;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid $svg-color;
+  border-radius: 4px;
+}
+.clients-list li:hover {
+  border-color: $accent-color;
+}
+.roy {
+  fill: $svg-color;
+}
+.roy:hover,
+.roy:focus {
+  fill: $accent-color;
+}
