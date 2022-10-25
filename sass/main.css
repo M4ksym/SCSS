@@ -673,7 +673,6 @@ summary {
 
 .poy {
   fill: #afb1b8;
-  --color3: $back-human-color;
 }
 
 .poy:focus,
