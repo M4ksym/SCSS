@@ -25,7 +25,7 @@
 }
 .mail-nav :focus,
 .mail-nav :hover {
-  color: var(--accent-color);
+  color: accent-color;
 }
 
 .site-nav {
@@ -46,15 +46,15 @@
 .nav-item::after {
   display: block;
   position: absolute;
-  content: "";
+  content: " ";
   left: 0;
   bottom: 10px;
   width: 100%;
   height: 5px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   /* opacity: 0; */
   transform: scaleX(0);
-  transition: transform 700ms var(--cubic);
+  transition: transform 700ms $cubic;
 }
 .nav-item:hover::after {
   align-items: center;
@@ -69,7 +69,7 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 /*  */
@@ -83,5 +83,5 @@
 
 .site-nav :hover,
 .site-nav :focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
