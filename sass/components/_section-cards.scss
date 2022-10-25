@@ -17,7 +17,7 @@
   margin-bottom: 30px;
   width: 370px;
   height: 404px;
-  border: 1px solid var(--main-color);
+  border: 1px solid $main-color;
 }
 .img-hover {
   padding: 20px;
@@ -26,8 +26,8 @@
   opacity: 1;
   width: 90%;
   height: 100%;
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: $white-color;
+  background-color: $accent-color;
   transform: translateY(calc(100%));
   transition: 900ms cubic-bezier(0.47, 0.01, 0.45, 1.36);
 }
