@@ -5,7 +5,7 @@
   font-size: 26px;
   line-height: 1.19;
 
-  color: var(--black-color);
+  color: $black-color;
 }
 .logo-mid {
   cursor: default;
@@ -14,7 +14,7 @@
   font-size: 26px;
   line-height: 1.19;
 
-  color: var(--white-color);
+  color: $white-color;
 }
 .accent {
   font-family: "Oleo Script" normal;
@@ -22,5 +22,5 @@
   font-size: 26px;
   line-height: 1.38;
 
-  color: var(--accent-color);
+  color: $accent-color;
 }
