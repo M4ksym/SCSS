@@ -4,7 +4,7 @@
   width: 1600 px;
   height: 600px;
   top: 80px;
-  background-color: var(--footer-color);
+  background-color: $footer-color;
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
@@ -21,7 +21,7 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
 
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .buttom-primary {
@@ -39,11 +39,11 @@
   left: 50%;
   transform: translate(-50%, 0%);
 
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: $white-color;
+  background-color: $accent-color;
 }
 .buttom-primary:hover,
 .buttom-primary:focus {
-  background-color: var(--bgc-buttom);
+  background-color: $bgc-buttom;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
