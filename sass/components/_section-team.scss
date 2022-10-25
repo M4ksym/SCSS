@@ -49,7 +49,7 @@
 }
 .poy {
   fill: $svg-color;
-  --color3: $back-human-color;
+  $color3: $back-human-color;
 }
 .poy:focus,
 .poy:hover {
