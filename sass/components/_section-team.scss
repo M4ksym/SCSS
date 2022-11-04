@@ -50,10 +50,11 @@
 .poy {
   fill: $svg-color;
   fill: color3 $back-human-color;
-}
-.poy:focus,
-.poy:hover {
-  fill: $white-color;
-  --color3: $accent-color;
-  border: radius 2px;
+
+  &:hover,
+  :focus {
+    fill: $white-color;
+    --color3: $accent-color;
+    border: radius 2px;
+  }
 }
