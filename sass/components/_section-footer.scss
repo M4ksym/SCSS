@@ -6,6 +6,10 @@
   height: 252px;
 
   background-color: $footer-color;
+
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 .footer-title {
@@ -19,23 +23,23 @@
   color: $white-color;
 }
 
-.section-footer :focus {
-  color: $accent-color;
-}
 .adress {
   margin-top: 20px;
   color: $white-color;
+
+  &:focus,
+  :hover {
+    color: $accent-color;
+  }
 }
 
-.adress:focus {
-  color: $accent-color;
-}
 .dawn {
   display: inline-block;
   margin-top: 9px;
-}
-.dawn:hover {
-  color: $accent-color;
+
+  & :focus {
+    color: $accent-color;
+  }
 }
 
 .social-link {
@@ -52,11 +56,12 @@
 .toy {
   fill: $white-color;
   $color3: $footer-icon;
-}
-.toy:hover {
-  border: radius 2px;
-  fill: $white-color;
-  $color3: $accent-color;
+
+  &:hover {
+    border: radius 2px;
+    fill: $white-color;
+    $color3: $accent-color;
+  }
 }
 .div-margin {
   margin-right: 70px;
@@ -129,8 +134,9 @@
 
   color: $white-color;
   background-color: $accent-color;
-}
-.buttom-footer:hover {
-  background-color: $bgc-buttom;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    background-color: $bgc-buttom;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
