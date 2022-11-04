@@ -322,9 +322,9 @@ summary {
   fill: currentColor;
 }
 
-.mail-nav :focus,
-.mail-nav :hover {
-  color: accent-color;
+.mail-nav :hover,
+:focus {
+  color: #2196f3;
 }
 
 .site-nav {
@@ -384,7 +384,7 @@ summary {
 }
 
 .site-nav :hover,
-.site-nav :focus {
+:focus {
   color: #2196f3;
 }
 
@@ -413,9 +413,8 @@ summary {
   color: #212121;
   background-color: #f5f4fa;
 }
-
 .buttom-secondary:hover,
-.buttom-secondary:focus {
+.buttom-secondary :focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -461,11 +460,10 @@ summary {
   color: #ffffff;
   background-color: #2196f3;
 }
-
 .buttom-primary:hover,
-.buttom-primary:focus {
+.buttom-primary :focus {
   background-color: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #188ce8;
 }
 
 .section-cards {
@@ -675,9 +673,8 @@ summary {
   fill: #afb1b8;
   fill: color3 #f5f4fa;
 }
-
-.poy:focus,
-.poy:hover {
+.poy:hover,
+.poy :focus {
   fill: #ffffff;
   --color3: $accent-color;
   border: radius 2px;
@@ -694,7 +691,7 @@ summary {
   display: flex;
   justify-content: center;
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 90px;
   height: 42px;
   font-size: 36px;
   line-height: 1.16;
@@ -709,22 +706,20 @@ summary {
 .clients-list li {
   display: flex;
   justify-content: center;
-  width: 170px;
-  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
 .clients-list li:hover {
   border-color: #2196f3;
 }
 
 .roy {
+  width: 170px;
+  height: 92px;
   fill: #afb1b8;
 }
-
 .roy:hover,
-.roy:focus {
+.roy :focus {
   fill: #2196f3;
 }
 
@@ -736,6 +731,9 @@ summary {
   height: 252px;
   background-color: #2f303a;
 }
+.section-footer:hover {
+  color: #2196f3;
+}
 
 .footer-title {
   text-transform: uppercase;
@@ -746,16 +744,12 @@ summary {
   color: #ffffff;
 }
 
-.section-footer :focus {
-  color: #2196f3;
-}
-
 .adress {
   margin-top: 20px;
   color: #ffffff;
 }
-
-.adress:focus {
+.adress:focus,
+.adress :hover {
   color: #2196f3;
 }
 
@@ -763,8 +757,7 @@ summary {
   display: inline-block;
   margin-top: 9px;
 }
-
-.dawn:hover {
+.dawn :focus {
   color: #2196f3;
 }
 
@@ -783,7 +776,6 @@ summary {
 .toy {
   fill: #ffffff;
 }
-
 .toy:hover {
   border: radius 2px;
   fill: #ffffff;
@@ -863,7 +855,6 @@ summary {
   color: #ffffff;
   background-color: #2196f3;
 }
-
 .buttom-footer:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
