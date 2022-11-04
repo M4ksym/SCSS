@@ -23,9 +23,9 @@
   height: 16px;
   fill: currentColor;
 }
-.mail-nav :focus,
-.mail-nav :hover {
-  color: accent-color;
+.mail-nav :hover,
+:focus {
+  color: $accent-color;
 }
 
 .site-nav {
@@ -82,6 +82,6 @@
 }
 
 .site-nav :hover,
-.site-nav :focus {
+:focus {
   color: $accent-color;
 }
