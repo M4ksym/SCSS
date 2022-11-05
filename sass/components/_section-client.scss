@@ -28,6 +28,7 @@
   display: flex;
   justify-content: center;
 
+  height: 92px;
   border: 1px solid $svg-color;
   border-radius: 4px;
 
@@ -37,7 +38,6 @@
 }
 .roy {
   width: 170px;
-  height: 92px;
   fill: $svg-color;
 
   &:hover,
