@@ -706,6 +706,7 @@ summary {
 .clients-list li {
   display: flex;
   justify-content: center;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -715,7 +716,6 @@ summary {
 
 .roy {
   width: 170px;
-  height: 92px;
   fill: #afb1b8;
 }
 .roy:hover,
