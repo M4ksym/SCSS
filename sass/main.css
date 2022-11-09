@@ -302,6 +302,7 @@ summary {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
@@ -348,7 +349,7 @@ summary {
   position: absolute;
   content: " ";
   left: 0;
-  bottom: -4px;
+  bottom: -14px;
   width: 100%;
   height: 5px;
   background-color: #2196f3;
@@ -427,9 +428,10 @@ summary {
 }
 
 .section-banner {
+  position: relative;
   background-position: center;
   background-size: cover;
-  width: 1600 px;
+  min-width: 1600px;
   height: 600px;
   top: 80px;
   background-color: #2f303a;
@@ -456,7 +458,7 @@ summary {
   font-weight: 700;
   font-family: "Roboto";
   letter-spacing: 0.06em;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, 0%);
   color: #ffffff;
@@ -620,12 +622,12 @@ summary {
 }
 
 .team {
+  width: 1600px;
   background-color: #f5f4fa;
 }
 
 .section-team {
   justify-content: space-around;
-  width: 1170px;
   padding-bottom: 94px;
   margin: auto;
 }
@@ -732,6 +734,7 @@ summary {
   padding-left: 215px;
   width: 1600px;
   height: 252px;
+  margin-right: 0px;
   background-color: #2f303a;
 }
 .section-footer:hover {
