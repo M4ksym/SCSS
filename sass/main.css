@@ -299,11 +299,8 @@ summary {
 }
 
 .nav {
-  display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 1600px;
-  height: 80px;
   left: 0px;
   top: 0px;
   border: 1px solid #ececec;
@@ -431,16 +428,12 @@ summary {
   position: relative;
   background-position: center;
   background-size: cover;
-  min-width: 1600px;
-  height: 600px;
-  top: 80px;
   background-color: #2f303a;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/background-Img.jpg);
 }
 
 .banner {
   text-align: center;
-  padding: 200px 452px 30px 452px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -473,13 +466,11 @@ summary {
 .section-cards {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .flex-container {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -533,41 +524,33 @@ summary {
   text-align: center;
 }
 
-.section-title {
-  opacity: 0;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: auto;
-  max-width: 1170px;
-}
-
-.list-skills {
-  display: flex;
-}
-
 .section-skills {
-  max-width: 1170px;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+@media screen and (min-width: 480px) {
+  .section-skills {
+    width: 480px;
+  }
+}
+
+.section-title {
+  display: none;
 }
 
 .list-item {
-  flex-wrap: wrap;
-  display: flex;
-  width: 270px;
-  margin-right: 30px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .list-item svg {
+  height: 120px;
+  width: 100%;
   background-color: #f5f4fa;
-}
-
-.icon-astronaut {
-  background-color: #000000;
 }
 
 .work-title {
@@ -581,13 +564,7 @@ summary {
   letter-spacing: 0.03em;
 }
 
-.work-cards {
-  display: flex;
-  margin-bottom: 94px;
-}
-
 .list-work p {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -622,34 +599,20 @@ summary {
 }
 
 .team {
-  width: 1600px;
   background-color: #f5f4fa;
 }
 
 .section-team {
   justify-content: space-around;
-  padding-bottom: 94px;
-  margin: auto;
 }
 
 .section-team h2 {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  width: 264px;
-  height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  margin: auto;
-}
-
-.team-list {
-  display: flex;
 }
 
 .team-item {
-  height: 428px;
-  width: 270px;
   margin: auto;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -686,16 +649,11 @@ summary {
 
 .section-clients {
   margin: auto;
-  width: 1170px;
-  height: 372px;
 }
 
 /* H2 */
 .clients-title {
-  display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 90px;
   height: 42px;
   font-size: 36px;
   line-height: 1.16;
@@ -703,12 +661,9 @@ summary {
 
 .clients-list {
   justify-content: space-around;
-  display: flex;
-  padding-bottom: 94px;
 }
 
 .clients-list li {
-  display: flex;
   justify-content: center;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -719,8 +674,6 @@ summary {
 }
 
 .roy {
-  height: 90px;
-  width: 170px;
   fill: #afb1b8;
 }
 .roy:hover,
@@ -729,11 +682,6 @@ summary {
 }
 
 .section-footer {
-  display: flex;
-  padding-top: 60px;
-  padding-left: 215px;
-  width: 1600px;
-  height: 252px;
   margin-right: 0px;
   background-color: #2f303a;
 }
@@ -743,7 +691,6 @@ summary {
 
 .footer-title {
   text-transform: uppercase;
-  padding-bottom: 20px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -751,7 +698,6 @@ summary {
 }
 
 .adress {
-  margin-top: 20px;
   color: #ffffff;
 }
 .adress:focus,
@@ -769,11 +715,9 @@ summary {
 
 .social-link {
   justify-content: center;
-  display: flex;
 }
 
 .icon-Ellipse {
-  display: flex;
   width: 50px;
   height: 50px;
   margin-right: 10px;
@@ -792,9 +736,6 @@ summary {
 }
 
 .sent {
-  display: flex;
-  width: 600px;
-  height: 200px;
   justify-content: space-between;
 }
 
@@ -804,8 +745,6 @@ summary {
 }
 
 .sent h2 {
-  width: 219px;
-  height: 16px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
