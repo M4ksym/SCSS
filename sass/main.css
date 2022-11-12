@@ -672,6 +672,9 @@ summary {
 }
 
 .section-clients {
+  flex-wrap: wrap;
+  display: flex;
+  margin: -5px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -679,19 +682,17 @@ summary {
 }
 @media screen and (min-width: 480px) {
   .section-clients {
-    width: calc(100% - 60px)/2;
+    width: calc(100% - 30px)/2;
   }
 }
 
-/* H2 */
 .clients-title {
-  height: 42px;
   font-size: 36px;
   line-height: 1.16;
 }
 
 .clients-item {
-  height: 92px;
+  flex-basis: 50%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
