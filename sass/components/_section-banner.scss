@@ -2,9 +2,7 @@
   position: relative;
   background-position: center;
   background-size: cover;
-  min-width: 1600px;
-  height: 600px;
-  top: 80px;
+
   background-color: $footer-color;
   background-image: linear-gradient(
       to top,
@@ -16,7 +14,6 @@
 .banner {
   text-align: center;
 
-  padding: 200px 452px 30px 452px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
