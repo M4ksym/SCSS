@@ -1,24 +1,25 @@
 .section-clients {
-  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 }
 
 /* H2 */
 
 .clients-title {
-  justify-content: center;
-
+  padding-top: 50px;
   height: 42px;
   font-size: 36px;
   line-height: 1.16;
 }
 
-.clients-list {
-  justify-content: space-around;
-}
-
-.clients-list li {
-  justify-content: center;
-
+.clients-item {
+  width: calc(100%-4 * 15px) / 2;
   height: 92px;
   border: 1px solid $svg-color;
   border-radius: 4px;
@@ -27,7 +28,7 @@
     border-color: $accent-color;
   }
 }
-.roy {
+.clients-logo {
   fill: $svg-color;
 
   &:hover,
