@@ -1,4 +1,5 @@
 .menu-container {
+  display: none;
   top: 100%;
   left: 0;
   width: 100%;
@@ -6,6 +7,16 @@
   padding: 20px;
   text-align: center;
   background-color: orange;
+}
+.menu-button {
+  position: absolute;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  right: 0;
+  // background-color: transparent;
 }
 
 .icon-envelope {
