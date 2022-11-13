@@ -300,6 +300,7 @@ summary {
 }
 
 .menu-container {
+  display: none;
   top: 100%;
   left: 0;
   width: 100%;
@@ -307,6 +308,16 @@ summary {
   padding: 20px;
   text-align: center;
   background-color: orange;
+}
+
+.menu-button {
+  position: absolute;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  right: 0;
 }
 
 .icon-envelope {
@@ -463,14 +474,21 @@ summary {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+@media screen and (min-width: 480px) {
+  .flex-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 480px;
+  }
+}
 
 .card-item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 30px;
-  width: 370px;
-  height: 404px;
   border: 1px solid #e5e5e5;
 }
 
