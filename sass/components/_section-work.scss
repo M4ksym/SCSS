@@ -1,6 +1,9 @@
+.work {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
 .work-title {
-  text-align: center;
-  margin-bottom: 94px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -8,8 +11,7 @@
   line-height: 42px;
   letter-spacing: 0.03em;
 }
-// .work-cards {
-// }
+
 .list-work p {
   align-items: center;
   justify-content: center;
