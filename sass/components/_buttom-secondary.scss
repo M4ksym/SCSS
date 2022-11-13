@@ -1,16 +1,15 @@
 .bs {
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
+  @media screen and (min-width: 480px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+  }
 }
-.bs li {
-  margin: 4px;
-}
+
 .buttom-secondary {
   border-radius: 4px;
   padding: 6px 20px;
-  margin-bottom: 50px;
-  margin-top: 94px;
+
   font-family: inherit;
   border-radius: 10px;
   cursor: pointer;
