@@ -1,13 +1,35 @@
 .section-footer {
-  margin-right: 0px;
-
   background-color: $footer-color;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-top: 60px;
+    text-align: center;
+  }
 
   &:hover {
     color: $accent-color;
   }
 }
+.footer-address {
+  color: $white-color;
 
+  &:focus,
+  :hover {
+    color: $accent-color;
+  }
+}
+.footer-link {
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-top: 60px;
+  }
+}
+.company-mail {
+  & :focus {
+    color: $accent-color;
+  }
+}
 .footer-title {
   text-transform: uppercase;
 
@@ -18,24 +40,6 @@
   color: $white-color;
 }
 
-.adress {
-  color: $white-color;
-
-  &:focus,
-  :hover {
-    color: $accent-color;
-  }
-}
-
-.dawn {
-  display: inline-block;
-  margin-top: 9px;
-
-  & :focus {
-    color: $accent-color;
-  }
-}
-
 .social-link {
   justify-content: center;
 }
@@ -43,8 +47,7 @@
   width: 50px;
   height: 50px;
   margin-right: 10px;
-}
-.toy {
+
   fill: $white-color;
   $color3: $footer-icon;
 
@@ -54,15 +57,8 @@
     $color3: $accent-color;
   }
 }
-.div-margin {
-  margin-right: 70px;
-}
-.sent {
-  justify-content: space-between;
-}
-.footer-mail {
-  margin: 0px;
-  padding: 0px;
+.footer-mail-title {
+  color: $white-color;
 }
 .sent h2 {
   font-size: 14px;
