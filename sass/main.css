@@ -380,21 +380,17 @@ summary {
   color: #2196f3;
 }
 
-.bs {
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
-}
-
-.bs li {
-  margin: 4px;
+@media screen and (min-width: 480px) {
+  .bs {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+  }
 }
 
 .buttom-secondary {
   border-radius: 4px;
   padding: 6px 20px;
-  margin-bottom: 50px;
-  margin-top: 94px;
   font-family: inherit;
   border-radius: 10px;
   cursor: pointer;
@@ -476,8 +472,6 @@ summary {
 }
 @media screen and (min-width: 480px) {
   .flex-container {
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     width: 480px;
@@ -522,12 +516,13 @@ summary {
 }
 
 .card-item .title {
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
 }
 
 .name-card {
-  padding-top: 10px;
+  padding-top: 4px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
