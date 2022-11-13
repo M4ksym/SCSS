@@ -8,14 +8,22 @@
 .flex-container {
   flex-wrap: wrap;
   justify-content: space-around;
+
+  @media screen and (min-width: 480px) {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 480px;
+  }
 }
 .card-item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 30px;
-  width: 370px;
-  height: 404px;
+
   border: 1px solid $main-color;
 }
 .img-hover {
