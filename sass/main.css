@@ -672,9 +672,6 @@ summary {
 }
 
 .section-clients {
-  flex-wrap: wrap;
-  display: flex;
-  margin: -5px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -682,17 +679,21 @@ summary {
 }
 @media screen and (min-width: 480px) {
   .section-clients {
-    width: calc(100% - 30px)/2;
+    width: calc((100% - 60px) / 2);
   }
 }
 
 .clients-title {
+  text-align: center;
   font-size: 36px;
   line-height: 1.16;
 }
 
+.clients-list {
+  width: 100px;
+}
+
 .clients-item {
-  flex-basis: 50%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -709,10 +710,35 @@ summary {
 }
 
 .section-footer {
-  margin-right: 0px;
   background-color: #2f303a;
 }
+@media screen and (min-width: 480px) {
+  .section-footer {
+    width: 480px;
+    padding-top: 60px;
+    text-align: center;
+  }
+}
 .section-footer:hover {
+  color: #2196f3;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+.footer-address:focus,
+.footer-address :hover {
+  color: #2196f3;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-link {
+    width: 480px;
+    padding-top: 60px;
+  }
+}
+
+.company-mail :focus {
   color: #2196f3;
 }
 
@@ -724,22 +750,6 @@ summary {
   color: #ffffff;
 }
 
-.adress {
-  color: #ffffff;
-}
-.adress:focus,
-.adress :hover {
-  color: #2196f3;
-}
-
-.dawn {
-  display: inline-block;
-  margin-top: 9px;
-}
-.dawn :focus {
-  color: #2196f3;
-}
-
 .social-link {
   justify-content: center;
 }
@@ -748,27 +758,15 @@ summary {
   width: 50px;
   height: 50px;
   margin-right: 10px;
-}
-
-.toy {
   fill: #ffffff;
 }
-.toy:hover {
+.icon-Ellipse:hover {
   border: radius 2px;
   fill: #ffffff;
 }
 
-.div-margin {
-  margin-right: 70px;
-}
-
-.sent {
-  justify-content: space-between;
-}
-
-.footer-mail {
-  margin: 0px;
-  padding: 0px;
+.footer-mail-title {
+  color: #ffffff;
 }
 
 .sent h2 {
