@@ -3,10 +3,13 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
 .buttom-secondary {
+  margin-bottom: 8px;
+  margin-right: 8px;
   border-radius: 4px;
   padding: 6px 20px;
 
