@@ -1,36 +1,76 @@
 .section-clients {
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 60px;
   margin-right: auto;
   margin-left: auto;
-}
-.clients-list {
-  margin: 5px;
-  display: flex;
+
   @media screen and (min-width: 480px) {
-    width: 50%;
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
   }
 }
+
+.clients-list {
+  @media screen and (min-width: 480px) {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (width: 768px) {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
 .clients-title {
   text-align: center;
   font-size: 36px;
   line-height: 1.16;
 }
 .clients-item {
+  margin: 1%;
+
   border: 1px solid $svg-color;
   border-radius: 4px;
 
   &:hover {
     border-color: $accent-color;
   }
+
+  @media screen and (min-width: 480px) {
+    width: 45%;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 30%;
+  }
 }
 
 .clients-logo {
   width: 100%;
+  height: 92px;
+  margin: 1%;
+
   fill: $svg-color;
 
   &:hover,
   :focus {
     fill: $accent-color;
+  }
+
+  .use {
+    display: flex;
+    width: 210px;
+    height: 90px;
   }
 }
