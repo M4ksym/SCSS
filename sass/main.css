@@ -438,12 +438,17 @@ summary {
   background-position: center;
   background-size: cover;
   background-color: #2f303a;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/background-Img.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/images/background-Img.jpg);
 }
 @media screen and (min-width: 480px) {
   .section-banner {
     width: 480px;
     height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-banner {
+    width: 768px;
   }
 }
 
@@ -554,7 +559,13 @@ summary {
 }
 @media screen and (min-width: 480px) {
   .section-skills {
+    margin-bottom: 60px;
     width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-skills {
+    width: 768px;
   }
 }
 
@@ -562,15 +573,37 @@ summary {
   display: none;
 }
 
-.list-item {
-  margin-bottom: 60px;
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .list-skills {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    margin-right: 15px;
+    width: 47%;
+  }
 }
 
 .list-item svg {
   height: 120px;
   width: 100%;
   background-color: #f5f4fa;
+}
+@media screen and (min-width: 480px) {
+  .list-item svg {
+    padding-left: 40%;
+    padding-top: 7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list-item svg {
+    padding-left: 40%;
+    padding-top: 7%;
+  }
 }
 
 @media screen and (max-width: 768px) {
