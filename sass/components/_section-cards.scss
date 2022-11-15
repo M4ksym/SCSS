@@ -1,31 +1,34 @@
 .section-cards {
   margin-left: auto;
   margin-right: auto;
-
   padding-left: 15px;
   padding-right: 15px;
 }
 .flex-container {
-  flex-wrap: wrap;
-  justify-content: space-around;
-
   @media screen and (min-width: 480px) {
+    width: 480px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 40px;
-    padding-left: 15px;
     padding-right: 15px;
-    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
   }
 }
 .card-item {
-  position: relative;
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 30px;
-
   border: 1px solid $main-color;
+
+  @media screen and (min-width: 768px) {
+    margin: 1%;
+  }
 }
 .img-hover {
   padding: 20px;
