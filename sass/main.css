@@ -310,13 +310,13 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .header {
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 768px;
     align-items: center;
   }
 }
@@ -340,6 +340,7 @@ summary {
 
 .site-nav {
   padding-left: 8%;
+  padding-right: 21%;
   display: flex;
 }
 .site-nav:hover,
