@@ -6,19 +6,39 @@
   margin-right: auto;
 
   @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
     width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
   }
 }
 .section-title {
   display: none;
 }
-
+.list-skills {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
 .list-item {
-  margin-bottom: 60px;
-  text-align: center;
+  @media screen and (min-width: 768px) {
+    margin-right: 15px;
+    width: 47%;
+  }
 }
 .list-item svg {
   height: 120px;
   width: 100%;
   background-color: $back-human-color;
+  @media screen and (min-width: 480px) {
+    padding-left: 40%;
+    padding-top: 7%;
+  }
+  @media screen and (min-width: 768px) {
+    padding-left: 40%;
+    padding-top: 7%;
+  }
 }
