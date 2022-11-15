@@ -1,48 +1,45 @@
 .header {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 768px;
+    align-items: center;
+  }
   border: 1px solid #ececec;
 }
-.menu-container {
-  display: none;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  text-align: center;
-  background-color: orange;
+.nav {
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
 }
-.menu-button {
-  position: absolute;
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  top: 0;
-  right: 0;
-  // background-color: transparent;
-}
-
-.icon-envelope {
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-  fill: currentColor;
-}
-
-.icon-smartphone {
-  margin-right: 10px;
-  width: 10px;
-  height: 16px;
-  fill: currentColor;
-}
-.mail-nav :hover,
-:focus {
-  color: $accent-color;
-}
-
 .nav-item {
-  padding: 15px 10px;
+  padding-right: 10%;
 }
+.site-nav {
+  padding-left: 8%;
+  display: flex;
+
+  &:hover,
+  :focus {
+    color: $accent-color;
+  }
+}
+.mail-nav {
+  &:hover,
+  :focus {
+    color: $accent-color;
+  }
+}
+
 .nav-item::after {
   display: block;
   position: absolute;
@@ -72,9 +69,16 @@
   color: $title-text-color;
 }
 
-/*  */
+.icon-envelope {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
 
-.site-nav :hover,
-:focus {
-  color: $accent-color;
+.icon-smartphone {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
 }
