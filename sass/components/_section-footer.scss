@@ -1,19 +1,31 @@
 .section-footer {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
   background-color: $footer-color;
 
   @media screen and (min-width: 480px) {
     width: 480px;
-    padding-top: 60px;
+
     text-align: center;
   }
-  @media screen and (max-width: 768px) {
-    padding-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    padding-bottom: 6%;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-bottom: 6%;
   }
 
   &:hover {
     color: $accent-color;
+  }
+}
+.footer-label {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: 13%;
+    margin-bottom: 10%;
   }
 }
 .footer-address {
@@ -28,6 +40,11 @@
   @media screen and (min-width: 480px) {
     width: 480px;
     padding-top: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 0;
+    width: 45%;
+    margin-left: 10%;
   }
 }
 .company-mail {
@@ -122,5 +139,8 @@
 
   @media screen and (min-width: 480px) {
     margin-left: 31%;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 38%;
   }
 }
