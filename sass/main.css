@@ -468,6 +468,12 @@ summary {
     width: 768px;
   }
 }
+@media screen and (min-width: 1600px) {
+  .section-banner {
+    width: 1600px;
+    height: 600px;
+  }
+}
 
 .banner {
   padding-top: 118px;
@@ -477,6 +483,11 @@ summary {
   line-height: 42px;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+@media screen and (min-width: 1600px) {
+  .banner {
+    padding-top: 15%;
+  }
 }
 
 .buttom-primary {
