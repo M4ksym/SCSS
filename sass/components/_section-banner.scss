@@ -22,6 +22,10 @@
   @media screen and (min-width: 768px) {
     width: 768px;
   }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    height: 600px;
+  }
 }
 .banner {
   padding-top: 118px;
@@ -32,6 +36,10 @@
   letter-spacing: 0.06em;
 
   color: $white-color;
+
+  @media screen and (min-width: 1600px) {
+    padding-top: 15%;
+  }
 }
 
 .buttom-primary {
