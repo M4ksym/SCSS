@@ -1,16 +1,26 @@
 .section-clients {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 60px;
   margin-right: auto;
   margin-left: auto;
 
   @media screen and (min-width: 480px) {
     width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 768px) {
     width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 94px;
+    padding-top: 186px;
   }
 }
 
@@ -29,6 +39,14 @@
 
     justify-content: space-around;
     flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 
@@ -53,6 +71,9 @@
 
   @media screen and (min-width: 768px) {
     width: 30%;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 20%;
   }
 }
 
