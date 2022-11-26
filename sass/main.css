@@ -401,9 +401,8 @@ summary {
 @media screen and (min-width: 480px) {
   .bs {
     margin-left: auto;
+    width: 480px;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -412,10 +411,18 @@ summary {
   .bs {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 78px;
-    padding-right: 78px;
+    justify-content: center;
     width: 768px;
     margin-bottom: -3%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .bs {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 1600px;
+    margin-top: 3%;
   }
 }
 
@@ -515,6 +522,10 @@ summary {
   padding-right: 15px;
 }
 
+.flex-container {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (min-width: 480px) {
   .flex-container {
     width: 480px;
