@@ -648,6 +648,15 @@ summary {
   }
 }
 
+.work {
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 215px;
+  padding-right: 215px;
+}
 @media screen and (min-width: 450px) {
   .work {
     display: none;
@@ -661,14 +670,8 @@ summary {
 @media screen and (min-width: 1600px) {
   .work {
     display: block;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 5%;
     margin-top: 5%;
-    padding-left: 215px;
-    padding-right: 215px;
   }
 }
 
@@ -683,7 +686,18 @@ summary {
 }
 
 .work-cards {
+  width: 100%;
   display: flex;
+}
+
+.list-work {
+  width: 33.333%;
+  margin: 1%;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .list-work p {
@@ -693,21 +707,9 @@ summary {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  width: 100%;
   height: 18%;
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
-}
-
-.list-work {
-  margin: 1%;
-  width: 370px;
-  height: 294px;
-  content: "";
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
 }
 
 .icon-mac {
