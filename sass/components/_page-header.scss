@@ -1,19 +1,18 @@
 .header {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (min-width: 768px) {
     width: 768px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
     align-items: center;
   }
   @media screen and (min-width: 1600px) {
     width: 1600px;
-    display: flex;
-    justify-content: space-around;
   }
+
   border: 1px solid #ececec;
 }
 .nav {
@@ -21,11 +20,15 @@
     display: none;
   }
   @media screen and (min-width: 768px) {
+    width: 768px;
     display: flex;
     align-items: center;
+    margin-left: 10%;
   }
   @media screen and (min-width: 1600px) {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .nav-item {
@@ -42,6 +45,12 @@
   }
 }
 .mail-nav {
+  @media screen and (min-width: 768px) {
+    margin-left: 10%;
+  }
+  @media screen and (min-width: 1600px) {
+    display: flex;
+  }
   &:hover,
   :focus {
     color: $accent-color;
