@@ -320,10 +320,16 @@ summary {
     align-items: center;
   }
 }
+@media screen and (min-width: 1600px) {
+  .header {
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .nav {
-    width: 480px;
     display: none;
   }
 }
@@ -331,6 +337,11 @@ summary {
   .nav {
     display: flex;
     align-items: center;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .nav {
+    display: flex;
   }
 }
 
