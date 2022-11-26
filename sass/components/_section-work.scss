@@ -13,6 +13,7 @@
     display: none;
   }
   @media screen and (min-width: 1600px) {
+    width: 1600px;
     display: block;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -28,12 +29,11 @@
   padding-bottom: 5%;
 }
 .work-cards {
-  width: 100%;
   display: flex;
 }
 .list-work {
-  width: 33.333%;
-  margin: 1%;
+  height: 294px;
+  width: 33.33%;
 
   content: "";
   background-size: contain;
@@ -42,14 +42,14 @@
   background-color: $back-human-color;
 }
 .list-work p {
-  padding-top: 5%;
-  margin-top: 66%;
+  padding-top: 30px;
+  height: 25%;
+  margin-top: 57%;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  height: 18%;
   background: rgba(47, 48, 58, 0.8);
   color: $white-color;
 }
