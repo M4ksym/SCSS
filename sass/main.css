@@ -306,6 +306,10 @@ summary {
 }
 
 .header {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #ececec;
 }
 @media screen and (min-width: 768px) {
@@ -313,18 +317,12 @@ summary {
     width: 768px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
     align-items: center;
   }
 }
 @media screen and (min-width: 1600px) {
   .header {
     width: 1600px;
-    display: flex;
-    justify-content: space-around;
   }
 }
 
@@ -335,13 +333,17 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .nav {
+    width: 768px;
     display: flex;
     align-items: center;
+    margin-left: 10%;
   }
 }
 @media screen and (min-width: 1600px) {
   .nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -359,6 +361,16 @@ summary {
   color: #2196f3;
 }
 
+@media screen and (min-width: 768px) {
+  .mail-nav {
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .mail-nav {
+    display: flex;
+  }
+}
 .mail-nav:hover,
 .mail-nav :focus {
   color: #2196f3;
