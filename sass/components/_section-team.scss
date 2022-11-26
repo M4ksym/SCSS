@@ -19,9 +19,9 @@
     padding-bottom: 60px;
   }
   @media screen and (min-width: 1600px) {
+    width: 1600px;
     padding-left: 215px;
     padding-right: 215px;
-    width: 1600px;
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -53,7 +53,8 @@
     margin: 2%;
   }
   @media screen and (min-width: 1600px) {
-    width: 21%;
+    width: 23%;
+    margin: 1%;
   }
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
