@@ -32,34 +32,29 @@
   display: flex;
 }
 .list-work {
-  height: 294px;
+  margin: 1%;
   width: 33.33%;
 
-  content: "";
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: $back-human-color;
 }
 .list-work p {
-  padding-top: 30px;
-  height: 25%;
-  margin-top: 57%;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  height: 40px;
+  padding-top: 10px;
 
   background: rgba(47, 48, 58, 0.8);
   color: $white-color;
 }
 
-.icon-mac {
-  background-image: url(/images/img1.jpg);
-}
-.icon-macbook {
-  background-image: url(/images/img2.jpg);
-}
-.icon-ipad {
-  background-image: url(/images/img3.jpg);
-}
+// .icon-mac {
+//   background-image: url(/images/img(5).jpg);
+// }
+// .icon-macbook {
+//   background-image: url(/images/img(8).jpg);
+// }
+// .icon-ipad {
+//   background-image: url(/images/img(11).jpg);
+// }
