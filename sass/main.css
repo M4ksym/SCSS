@@ -30,6 +30,12 @@ body {
   color: #757575;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -736,37 +742,20 @@ summary {
 }
 
 .list-work {
-  height: 294px;
+  margin: 1%;
   width: 33.33%;
-  content: "";
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #f5f4fa;
 }
 
 .list-work p {
-  padding-top: 30px;
-  height: 25%;
-  margin-top: 57%;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  height: 40px;
+  padding-top: 10px;
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
-}
-
-.icon-mac {
-  background-image: url(/images/img1.jpg);
-}
-
-.icon-macbook {
-  background-image: url(/images/img2.jpg);
-}
-
-.icon-ipad {
-  background-image: url(/images/img3.jpg);
 }
 
 .team {
@@ -820,6 +809,7 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .team-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
