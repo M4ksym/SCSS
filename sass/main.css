@@ -1195,4 +1195,12 @@ summary {
   .test-section {
     width: 1600px;
   }
+}
+
+.test-st {
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  border: 1px solid rgb(6, 62, 247);
 }/*# sourceMappingURL=main.css.map */
