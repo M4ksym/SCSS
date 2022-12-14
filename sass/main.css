@@ -1075,8 +1075,13 @@ summary {
 }
 
 .footer-mail-title {
-  text-align: left;
+  text-align: center;
   color: #ffffff;
+}
+@media screen and (min-width: 1600px) {
+  .footer-mail-title {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1600px) {
