@@ -30,13 +30,13 @@
 .test-box {
   width: 1600px;
   height: 600px;
-  background-image: url(/images/Img1x.jpg);
+  background-image: url(/images/background-Img1x.jpg);
   background-size: 1600px 600px;
 }
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .test-box {
-    background-image: url(/images/Img3.jpg);
+    background-image: url(/images/background-Img2x.jpg);
   }
 }
