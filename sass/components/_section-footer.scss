@@ -91,8 +91,11 @@
   }
 }
 .footer-mail-title {
-  text-align: left;
+  text-align: center;
   color: $white-color;
+  @media screen and (min-width: 1600px) {
+    text-align: left;
+  }
 }
 .footer-mail {
   @media screen and (min-width: 1600px) {
