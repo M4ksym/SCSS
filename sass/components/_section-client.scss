@@ -2,8 +2,8 @@
   margin-right: auto;
   margin-left: auto;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 60px;
@@ -25,7 +25,7 @@
 }
 
 .clients-list {
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
     display: flex;
 
@@ -33,7 +33,7 @@
     flex-wrap: wrap;
   }
 
-  @media screen and (width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 100%;
     display: flex;
 
@@ -65,7 +65,7 @@
     border-color: $accent-color;
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     width: 45%;
   }
 
