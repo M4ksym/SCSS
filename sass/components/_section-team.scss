@@ -6,8 +6,8 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -35,7 +35,7 @@
   letter-spacing: 0.03em;
 }
 .team-list {
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
   }
   @media screen and (min-width: 768px) {
