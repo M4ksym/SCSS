@@ -781,6 +781,8 @@ summary {
 }
 @media screen and (min-width: 400px) {
   .section-team {
+    padding-left: 25px;
+    padding-right: 10px;
     width: 400px;
   }
 }
@@ -896,6 +898,8 @@ summary {
 }
 @media screen and (min-width: 400px) {
   .section-clients {
+    padding-right: 10px;
+    padding-left: 25px;
     width: 400px;
     padding-bottom: 10%;
   }
