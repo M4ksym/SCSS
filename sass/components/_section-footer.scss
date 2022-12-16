@@ -2,6 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 5%;
+
   background-color: $footer-color;
   @media screen and (min-width: 400px) {
     width: 400px;
@@ -22,7 +23,7 @@
     height: 260px;
     width: 1600px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   &:hover {
     color: $accent-color;
@@ -111,17 +112,16 @@
     text-align: left;
   }
 }
-.footer-mail {
-  margin-left: -20%;
-  @media screen and (min-width: 1600px) {
-  }
-}
+// .footer-mail {
+//   @media screen and (min-width: 1600px) {
+//   }
+// }
 .form-field {
   flex-direction: column;
   border-radius: 5px;
   box-sizing: border-box;
   @media screen and (max-width: 479px) {
-    margin-left: 28%;
+    margin-left: 17%;
   }
   @media screen and (min-width: 480px) {
     padding-top: 20px;
@@ -144,15 +144,13 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   @media screen and (min-width: 400px) {
-    width: 60%;
+    width: 80%;
   }
   @media screen and (min-width: 1600px) {
     width: 358px;
   }
 }
-.div-footer-button {
-  margin-left: -10%;
-}
+
 .svg-button {
   transform: translateY(calc(-100%));
   transition: 1000ms $cubic 500ms;
@@ -186,17 +184,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   @media screen and (min-width: 400px) {
-    margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 26%;
+    margin-top: 5%;
   }
   @media screen and (min-width: 480px) {
     margin-left: 31%;
   }
-  @media screen and (max-width: 1599px) {
-    margin-top: 5%;
-    margin-left: 38%;
+  @media screen and (min-width: 768px) {
+    margin-left: 35%;
   }
-  // @media screen and (min-width: 1600px) {
-  //   margin-left: -1%;
-  // }
+  @media screen and (min-width: 1600px) {
+    margin-top: 10%;
+    margin-left: 3%;
+  }
 }
