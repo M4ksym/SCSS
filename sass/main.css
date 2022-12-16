@@ -1058,7 +1058,7 @@ summary {
     height: 260px;
     width: 1600px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
 .section-footer:hover {
@@ -1159,9 +1159,6 @@ summary {
   }
 }
 
-.footer-mail {
-  margin-left: -20%;
-}
 .form-field {
   flex-direction: column;
   border-radius: 5px;
@@ -1169,7 +1166,7 @@ summary {
 }
 @media screen and (max-width: 479px) {
   .form-field {
-    margin-left: 28%;
+    margin-left: 17%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1200,17 +1197,13 @@ summary {
 }
 @media screen and (min-width: 400px) {
   .form-field input {
-    width: 60%;
+    width: 80%;
   }
 }
 @media screen and (min-width: 1600px) {
   .form-field input {
     width: 358px;
   }
-}
-
-.div-footer-button {
-  margin-left: -10%;
 }
 
 .svg-button {
@@ -1246,8 +1239,8 @@ summary {
 }
 @media screen and (min-width: 400px) {
   .buttom-footer {
-    margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 26%;
+    margin-top: 5%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1255,10 +1248,15 @@ summary {
     margin-left: 31%;
   }
 }
-@media screen and (max-width: 1599px) {
+@media screen and (min-width: 768px) {
   .buttom-footer {
-    margin-top: 5%;
-    margin-left: 38%;
+    margin-left: 35%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .buttom-footer {
+    margin-top: 10%;
+    margin-left: 3%;
   }
 }
 
