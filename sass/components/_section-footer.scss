@@ -4,8 +4,8 @@
   padding-top: 60px;
   background-color: $footer-color;
 
-  @media screen and (max-width: 767px) {
-    width: 100%;
+  @media screen and (min-width: 480px) {
+    width: 480px;
     text-align: center;
   }
   @media screen and (max-width: 767px) {
@@ -45,8 +45,8 @@
   }
 }
 .footer-link {
-  @media screen and (max-width: 767px) {
-    width: 100%;
+  @media screen and (min-width: 480px) {
+    width: 480px;
     padding-top: 60px;
   }
   @media screen and (min-width: 768px) {
@@ -106,7 +106,7 @@
   flex-direction: column;
   border-radius: 5px;
   box-sizing: border-box;
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -167,7 +167,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 480px) {
     margin-left: 31%;
   }
   @media screen and (min-width: 768px) {
