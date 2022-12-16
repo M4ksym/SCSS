@@ -318,6 +318,11 @@ summary {
   margin-right: auto;
   border: 1px solid #ececec;
 }
+@media screen and (min-width: 480px) {
+  .header {
+    width: 480px;
+  }
+}
 @media screen and (min-width: 768px) {
   .header {
     width: 768px;
@@ -332,8 +337,9 @@ summary {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .nav {
+    width: 480px;
     display: none;
   }
 }
@@ -427,11 +433,11 @@ summary {
   fill: currentColor;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .bs {
     margin-left: auto;
-    width: 100%;
     margin-right: auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -491,11 +497,11 @@ summary {
   background-position: center;
   background-size: cover;
   background-color: #2f303a;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/background-Img1x.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/./mobile-img1x.jpg);
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .section-banner {
-    width: 100%;
+    width: 480px;
     height: 400px;
   }
 }
@@ -513,7 +519,7 @@ summary {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .section-banner {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/background-Img2x.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/./mobile-img2x.jpg);
   }
 }
 .banner {
@@ -647,10 +653,10 @@ summary {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .section-skills {
     margin-bottom: 60px;
-    width: 100%;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -697,7 +703,7 @@ summary {
   width: 100%;
   background-color: #f5f4fa;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .list-item svg {
     padding-left: 40%;
     padding-top: 7%;
@@ -706,14 +712,14 @@ summary {
 
 .work {
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
   flex-wrap: wrap;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 215px;
   padding-right: 215px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 200px) {
   .work {
     display: none;
   }
@@ -748,7 +754,6 @@ summary {
 
 .list-work {
   margin: 1%;
-  width: 33.33%;
   background-color: #f5f4fa;
 }
 
@@ -771,27 +776,27 @@ summary {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 400px) {
   .section-team {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .section-team {
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
   .section-team {
     width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1600px) {
   .section-team {
     width: 1600px;
-    padding-left: 215px;
-    padding-right: 215px;
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -807,31 +812,51 @@ summary {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 400px) {
   .team-list {
     width: 100%;
+    padding-bottom: 5%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .team-list {
+    width: 480px;
+    padding-bottom: 5%;
   }
 }
 @media screen and (min-width: 768px) {
   .team-list {
-    width: 100%;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 5%;
   }
 }
 @media screen and (min-width: 1600px) {
   .team-list {
-    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 1600px;
   }
 }
 
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+@media screen and (min-width: 400px) {
+  .team-item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .team-item {
+    width: 480px;
+  }
+}
 @media screen and (min-width: 768px) {
   .team-item {
     width: 45%;
-    margin: 2%;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -863,35 +888,29 @@ summary {
   padding-bottom: 24px;
 }
 
-.poy {
-  fill: #afb1b8;
-  fill: color3 #f5f4fa;
-}
-.poy:hover,
-.poy :focus {
-  fill: #ffffff;
-  --color3: $accent-color;
-  border: radius 2px;
-}
-
 .section-clients {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 400px) {
   .section-clients {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 60px;
+    width: 400px;
+    padding-bottom: 10%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .section-clients {
+    width: 480px;
+    padding-bottom: 10%;
   }
 }
 @media screen and (min-width: 768px) {
   .section-clients {
     width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -900,11 +919,19 @@ summary {
     padding-left: 215px;
     padding-right: 215px;
     padding-bottom: 94px;
-    padding-top: 160px;
+    padding-top: 10%;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 400px) {
+  .clients-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 480px) {
   .clients-list {
     width: 100%;
     display: flex;
@@ -944,9 +971,14 @@ summary {
 .clients-item:hover {
   border-color: #2196f3;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 400px) {
   .clients-item {
-    width: 45%;
+    width: 47%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .clients-item {
+    width: 47%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -982,9 +1014,9 @@ summary {
   padding-top: 60px;
   background-color: #2f303a;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .section-footer {
-    width: 100%;
+    width: 480px;
     text-align: center;
   }
 }
@@ -1033,9 +1065,9 @@ summary {
   color: #2196f3;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .footer-link {
-    width: 100%;
+    width: 480px;
     padding-top: 60px;
   }
 }
@@ -1100,7 +1132,7 @@ summary {
   border-radius: 5px;
   box-sizing: border-box;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) {
   .form-field {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1166,7 +1198,7 @@ summary {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .buttom-footer {
     margin-left: 31%;
   }
