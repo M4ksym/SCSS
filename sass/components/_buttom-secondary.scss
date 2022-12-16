@@ -1,8 +1,8 @@
 .bs {
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 480px) {
     margin-left: auto;
-    width: 100%;
     margin-right: auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
