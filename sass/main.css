@@ -499,6 +499,12 @@ summary {
   background-color: #2f303a;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/images/./mobile-img1x.jpg);
 }
+@media screen and (min-width: 400px) {
+  .section-banner {
+    width: 100%;
+    height: 350px;
+  }
+}
 @media screen and (min-width: 480px) {
   .section-banner {
     width: 480px;
@@ -653,6 +659,11 @@ summary {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 400px) {
+  .section-skills {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 480px) {
   .section-skills {
     margin-bottom: 60px;
@@ -702,6 +713,12 @@ summary {
   height: 120px;
   width: 100%;
   background-color: #f5f4fa;
+}
+@media screen and (min-width: 400px) {
+  .list-item svg {
+    padding-left: 40%;
+    padding-top: 7%;
+  }
 }
 @media screen and (min-width: 480px) {
   .list-item svg {
@@ -781,9 +798,7 @@ summary {
 }
 @media screen and (min-width: 400px) {
   .section-team {
-    padding-left: 25px;
-    padding-right: 10px;
-    width: 400px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -898,9 +913,7 @@ summary {
 }
 @media screen and (min-width: 400px) {
   .section-clients {
-    padding-right: 10px;
-    padding-left: 25px;
-    width: 400px;
+    width: 100%;
     padding-bottom: 10%;
   }
 }
@@ -1015,8 +1028,13 @@ summary {
 .section-footer {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  padding-top: 5%;
   background-color: #2f303a;
+}
+@media screen and (min-width: 400px) {
+  .section-footer {
+    width: 400px;
+  }
 }
 @media screen and (min-width: 480px) {
   .section-footer {
@@ -1032,22 +1050,33 @@ summary {
 @media screen and (min-width: 768px) {
   .section-footer {
     width: 768px;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .section-footer {
+    height: 260px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
   }
 }
 .section-footer:hover {
   color: #2196f3;
 }
-@media screen and (min-width: 1600px) {
-  .section-footer {
-    width: 1600px;
-    padding-bottom: 1%;
+
+@media screen and (min-width: 400px) {
+  .footer-label {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-label {
     display: flex;
     justify-content: space-around;
   }
 }
-
-@media screen and (max-width: 1599px) {
+@media screen and (min-width: 1599px) {
   .footer-label {
     display: flex;
     margin-left: 13%;
@@ -1069,6 +1098,12 @@ summary {
   color: #2196f3;
 }
 
+@media screen and (min-width: 400px) {
+  .footer-link {
+    text-align: center;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 480px) {
   .footer-link {
     width: 480px;
@@ -1127,7 +1162,7 @@ summary {
 
 @media screen and (min-width: 1600px) {
   .footer-mail {
-    display: block;
+    display: grid;
   }
 }
 
@@ -1135,6 +1170,11 @@ summary {
   flex-direction: column;
   border-radius: 5px;
   box-sizing: border-box;
+}
+@media screen and (min-width: 400px) {
+  .form-field {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 480px) {
   .form-field {
@@ -1145,7 +1185,6 @@ summary {
 @media screen and (min-width: 1600px) {
   .form-field {
     display: flex;
-    margin-left: -20%;
   }
 }
 
@@ -1158,8 +1197,6 @@ summary {
 .form-field input {
   border-radius: 4px;
   padding-left: 16px;
-  width: 450px;
-  margin: 0;
   height: 50px;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1202,19 +1239,15 @@ summary {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+@media screen and (min-width: 400px) {
+  .buttom-footer {
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+}
 @media screen and (min-width: 480px) {
   .buttom-footer {
     margin-left: 31%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .buttom-footer {
-    margin-left: 38%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .buttom-footer {
-    margin-left: 5%;
   }
 }
 
