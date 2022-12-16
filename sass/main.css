@@ -1076,17 +1076,16 @@ summary {
     justify-content: space-around;
   }
 }
-@media screen and (min-width: 1599px) {
+@media screen and (max-width: 1599px) {
   .footer-label {
     display: flex;
-    margin-left: 13%;
+    margin-left: 5%;
     margin-bottom: 10%;
   }
 }
 @media screen and (min-width: 1600px) {
   .footer-label {
     display: flex;
-    margin-left: 8%;
   }
 }
 
@@ -1160,20 +1159,17 @@ summary {
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .footer-mail {
-    display: grid;
-  }
+.footer-mail {
+  margin-left: -20%;
 }
-
 .form-field {
   flex-direction: column;
   border-radius: 5px;
   box-sizing: border-box;
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 479px) {
   .form-field {
-    width: 100%;
+    margin-left: 28%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1202,10 +1198,19 @@ summary {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
+@media screen and (min-width: 400px) {
+  .form-field input {
+    width: 60%;
+  }
+}
 @media screen and (min-width: 1600px) {
   .form-field input {
     width: 358px;
   }
+}
+
+.div-footer-button {
+  margin-left: -10%;
 }
 
 .svg-button {
@@ -1248,6 +1253,12 @@ summary {
 @media screen and (min-width: 480px) {
   .buttom-footer {
     margin-left: 31%;
+  }
+}
+@media screen and (max-width: 1599px) {
+  .buttom-footer {
+    margin-top: 5%;
+    margin-left: 38%;
   }
 }
 
