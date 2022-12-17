@@ -318,44 +318,46 @@ summary {
   margin-right: auto;
   border: 1px solid #ececec;
 }
+@media screen and (min-width: 400px) {
+  .header {
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 480px) {
   .header {
     width: 480px;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 @media screen and (min-width: 768px) {
   .header {
     width: 768px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
   }
 }
 @media screen and (min-width: 1600px) {
   .header {
     width: 1600px;
+    display: flex;
   }
 }
 
-@media screen and (min-width: 480px) {
-  .nav {
-    width: 480px;
-    display: none;
-  }
-}
 @media screen and (min-width: 768px) {
   .nav {
-    width: 768px;
-    display: flex;
+    display: contents;
     align-items: center;
-    margin-left: 10%;
   }
 }
 @media screen and (min-width: 1600px) {
   .nav {
-    display: flex;
+    display: contents;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }
 
@@ -373,14 +375,15 @@ summary {
   color: #2196f3;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 787px) {
   .mail-nav {
-    margin-left: 10%;
+    display: none;
   }
 }
 @media screen and (min-width: 1600px) {
   .mail-nav {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 .mail-nav:hover,
@@ -420,6 +423,7 @@ summary {
 }
 
 .icon-envelope {
+  margin-left: 10px;
   margin-right: 10px;
   width: 16px;
   height: 12px;
@@ -427,6 +431,7 @@ summary {
 }
 
 .icon-smartphone {
+  margin-left: 10px;
   margin-right: 10px;
   width: 10px;
   height: 16px;
