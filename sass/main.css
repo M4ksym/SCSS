@@ -910,6 +910,17 @@ summary {
   padding-bottom: 24px;
 }
 
+.poy {
+  fill: #afb1b8;
+  fill: color3 #f5f4fa;
+}
+.poy:hover,
+.poy :focus {
+  fill: #ffffff;
+  --color3: $accent-color;
+  border: radius 2px;
+}
+
 .section-clients {
   margin-right: auto;
   margin-left: auto;
