@@ -91,23 +91,8 @@
   padding-top: 16px;
   padding-bottom: 24px;
 }
-// .poy {
-//   fill: $svg-color;
-//   fill: color3 $back-human-color;
 
-//   &:hover,
-//   :focus {
-//     fill: $white-color;
-//     --color3: $accent-color;
-//     border: radius 2px;
-//   }
-// }
-// .social-link svg {
-//   fill: $svg-color;
-//   --color3: red;
-// }
 .team-item svg {
-  // fill: $svg-color;
-  // $color3: red;
-  color: black;
+  fill: $svg-color;
+  --color3: rgb(255, 255, 255);
 }
