@@ -95,15 +95,10 @@
   height: 50px;
   margin-right: 10px;
 
-  // fill: $white-color;
-  // $color3: $footer-icon;
-
-  // &:hover {
-  //   border: radius 2px;
-  //   fill: $white-color;
-  //   $color3: $accent-color;
-  // }
+  fill: $white-color;
+  --color3: rgba(255, 255, 255, 0.1);
 }
+
 .footer-mail-title {
   text-align: center;
   color: $white-color;
