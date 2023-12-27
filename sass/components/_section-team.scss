@@ -90,6 +90,11 @@
   display: flex;
   padding-top: 16px;
   padding-bottom: 24px;
+
+  &:hover,
+  :focus {
+    fill: $accent-color;
+  }
 }
 
 .team-item svg {
